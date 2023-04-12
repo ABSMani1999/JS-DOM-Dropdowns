@@ -1,0 +1,31 @@
+<!DOCUTYPE html>
+<html>
+	<head>
+		<title> Drop Downs </title>
+		<meta charset="UTF=8"/>
+		<meta name="description" content="drop down"/>
+		<meta name="keywords" content="HTML,JavaScript"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<style>
+		*{ background-color:; }
+		.parent{ position:relative; list-style:none; border:5px solid maroon; padding:10px; width:25%; cursor:pointer; border-radius:30px; background-color:pink; }
+		.dropdown{ position:absolute; list-style:none; display:none; border:4px solid #02ffd8; width:300px; background-color:mistyrose; height:100; border-radius:20px; }
+		div{ margin:30px; }
+		a{ text-decoration:none; }
+		</style>
+	</head>
+	<body>
+		<div>
+			<li class="parent"><i class="fa-sharp fa-solid fa-filter"></i><a>Languages</a></li>
+		<ul class="dropdown">
+			<li><a> HTML </a></li>
+			<li><a> CSS </a></li>
+			<li><a> JavaScript </a></li>
+			<li><a></i> Python </a></li>
+			<li><a> My SQL </a></li>
+		</ul>
+		</div>
+		<script src="main.js"> </script>
+	</body>
+</html>
